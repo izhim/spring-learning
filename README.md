@@ -8,7 +8,7 @@ Welcome to my **Spring learning journey**! This repository serves as the central
 
 This course is divided into several sections:
 
-1. [**Spring Boot Fundamentals & Spring MVC**](https://github.com/TU_USUARIO/spring-boot-fundamentals)
+1. [**Spring Boot Fundamentals & Spring MVC**](https://github.com/izhim/spring-fundamentals)
    Learn the basics of Spring Boot and MVC architecture, including:
    - Working with **REST Controllers**
    - **Thymeleaf** templates and directives
