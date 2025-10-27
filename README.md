@@ -32,7 +32,7 @@ This course is divided into several sections:
   - **Code examples**
   - **Common mistakes and solutions**
 - Commits are descriptive to track learning progress.
-- A **personal Markdown guide** is maintained for quick reference without re-watching video lectures.
+- A **personal Markdown guide** is maintained for quick reference.
 
 ---
 
