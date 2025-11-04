@@ -20,8 +20,20 @@ This course is divided into several sections:
    - Accessing the **Environment object**
    - Redirects and forwards
    - Using the **`href` directive** in Thymeleaf
+  
+2. [**Dependency Injection**](https://github.com/izhim/injection-of-control)
+   A complete and practical explanation of **Dependency Injection (DI)** in Spring Boot, including:
 
-**...**
+   * How the **IoC container** manages beans
+   * Types of dependency injection: field, setter, and constructor
+   * Understanding **bean scopes** (`singleton`, `request`, `session`)
+   * Using **@Primary** and **@Qualifier** to manage multiple implementations
+   * Creating and injecting **custom beans** with `@Configuration` and `@Bean`
+   * Reading data dynamically from JSON files using configuration classes
+
+**... more modules coming soon!**
+
+
 
 ---
 
