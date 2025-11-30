@@ -30,6 +30,17 @@ This course is divided into several sections:
    * Using **@Primary** and **@Qualifier** to manage multiple implementations
    * Creating and injecting **custom beans** with `@Configuration` and `@Bean`
    * Reading data dynamically from JSON files using configuration classes
+     
+3. [**Exception Handling in Spring Boot**](https://github.com/izhim/spring-exception-handler)
+   A practical guide to **handling errors in REST APIs**, including:
+
+   - Centralized error handling with **`@RestControllerAdvice`**
+   - Using **`@ExceptionHandler`** to handle specific exceptions
+   - Difference between **`ResponseEntity`** and **`@ResponseStatus`**, and when to use each
+   - Creating and using **custom exceptions** for better error representation
+   - Implementing a **standard error response model** with consistent JSON structure
+   - Using **`Optional`** in the service layer to safely handle absent values and avoid null pointer exceptions
+   - Returning meaningful **HTTP status codes** and messages to API clients
 
 **... more modules coming soon!**
 
