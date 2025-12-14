@@ -41,6 +41,17 @@ This course is divided into several sections:
    - Implementing a **standard error response model** with consistent JSON structure
    - Using **`Optional`** in the service layer to safely handle absent values and avoid null pointer exceptions
    - Returning meaningful **HTTP status codes** and messages to API clients
+  
+4. [**Interceptors in Spring Boot**](https://github.com/izhim/spring-http-interceptors)
+   A practical guide to using **interceptors** in Spring Boot for request processing, logging, and monitoring:
+
+   - **Creating Custom Interceptors** to measure processing time and handle requests before they reach controllers.
+   - Applying interceptors globally or to specific paths with `addPathPatterns()` and `excludePathPatterns()`.
+   - Controlling the order of interceptors with the `order()` method to ensure they execute in the correct sequence.
+   - Stopping request processing early using `return false` in `preHandle()` for error handling or validation.
+   - Using interceptors to **log request details** or handle **exceptions** centrally.
+   - Performance considerations: keeping interceptors lightweight and non-blocking.
+   - Applying **logging** and **monitoring** in interceptors for debugging and production tracking.
 
 **... more modules coming soon!**
 
