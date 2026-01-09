@@ -53,6 +53,19 @@ This course is divided into several sections:
    - Performance considerations: keeping interceptors lightweight and non-blocking.
    - Applying **logging** and **monitoring** in interceptors for debugging and production tracking.
 
+5. [**Spring AOP (Aspect-Oriented Programming)**](https://github.com/izhim/spring-aop)
+   A complete introduction to **Aspect-Oriented Programming** in Spring, focused on separating cross-cutting concerns such as logging and monitoring:
+
+   - Core AOP concepts: **Aspect**, **JoinPoint**, **Advice**, and **Pointcut**
+   - All **types of advices**: `@Before`, `@After`, `@AfterReturning`, `@AfterThrowing`, and `@Around`
+   - Deep dive into **`@Around` advice** and execution flow control
+   - **Pointcut designators** with practical examples (`execution`, `within`, `args`, `@annotation`, `bean`, etc.)
+   - Declaring **reusable pointcuts** and combining them with logical operators
+   - Accessing runtime information from **JoinPoint** and **ProceedingJoinPoint**
+   - Controlling aspect precedence with **`@Order`**
+   - Using **regular expressions in route annotations**
+   - Defining pointcuts **inside an aspect** vs **external pointcut classes**
+
 **... more modules coming soon!**
 
 
